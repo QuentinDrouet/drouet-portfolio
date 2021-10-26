@@ -1,0 +1,8 @@
+@import "scss/abstract/variables",
+        "scss/abstract/mixins",
+        "scss/component/buttons",
+        "scss/layout/header";
+
+body {
+    background-color: $primary-background; 
+}
