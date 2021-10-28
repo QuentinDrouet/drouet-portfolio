@@ -6,24 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>My portfolio</title>
 </head>
 <body>
+    
     <header>
-        <a href=""><img src="images/logo3.png" alt=""></a>
-        <nav>
+        <a href="index.html"><img src="images/new_logo.png" alt="logo of my portfolio"></a>
+        <nav class="nav">
             <li><a href="">About</a></li>
             <li><a href="">Skills</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">Contact</a></li>
         </nav>
+        
+        <div class="burger-toggle" onclick="$('.nav-burger').slideToggle(100);"> 
+            <i class="fas fa-bars nav-icon"></i>
+        </div>
     </header>
     
+    <nav class="nav-burger"> 
+        <li><a href="">About</a></li>
+        <li><a href="">Skills</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact</a></li>
+    </nav>
+
     <div class="wrapper-about">
         <div class="wrapper-flex">
             <div class="wrapper-pres">
                 <div class="wrapper-heading">
-                    <h1><span>I bring ideas to life</span><br>with web technologies.</h1>
+                    <h1><span>I bring ideas to life</span><br>on the web.</h1>
                 </div>
                 <div class="wrapper-para">
                     <p>Hi! My name is <strong>Quentin Drouet</strong>, I am 18 and currently stuying at the "Institut de l'internet et du multimédia" in Paris. I like to create websites and mobile applications, from design to code.</p>
@@ -33,7 +46,7 @@
                 </div>
             </div>
             <div class="wrapper-photo">
-                <img src="images/me6.png" alt="">
+                <img src="images/me6.png" alt="photo of Quentin Drouet">
             </div>
         </div>
     </div>
