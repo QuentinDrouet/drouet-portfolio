@@ -31,6 +31,11 @@ header{
                 color: $primary-color;
                 box-shadow: $primary-color 0px -5px 0px 0px inset;
             }
+
+            &.active {
+                color: $primary-color;
+                box-shadow: $primary-color 0px -5px 0px 0px inset;
+            }
         }        
     }
     .burger-toggle{
@@ -74,9 +79,12 @@ header{
                 box-shadow: $primary-color 5px 0px 0px 0px inset;
                 color: $primary-color;
             }
+            &.active {
+                color: $primary-color;
+                box-shadow: $primary-color 5px 0px 0px 0px inset;
+            }
         }
     }
-   
 }
 
 /*  -----    NAVBAR RESPONSIVE   -----  */

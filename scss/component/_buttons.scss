@@ -10,6 +10,7 @@
         text-align: center;
         display: inline-block;
         transition: transform 0.5s;
+        
 
         &:hover {
             background-color: darken($primary-color, 10%);
