@@ -132,6 +132,11 @@ span {
   -webkit-text-fill-color: transparent;
 }
 
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
 .wrapper-about .wrapper-flex {
   display: flex;
   width: 85%;
@@ -209,6 +214,9 @@ span {
     text-align: center;
   }
 }
+.project-page {
+  padding-top: 50px;
+}
 .project-page .container {
   width: 100%;
   max-width: 1200px;
@@ -223,9 +231,15 @@ span {
   margin-bottom: 30px;
   text-align: center;
 }
-.project-page .container .title h2 {
-  font-size: 30px;
-  font-weight: 700;
+.project-page .container .desc {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.project-page .container .desc p {
+  font-size: 20px;
 }
 .project-page .container .list .project-grid {
   display: grid;
@@ -303,7 +317,7 @@ span {
   opacity: 1;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .project-page {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -313,7 +327,7 @@ span {
     grid-template-columns: 1fr 1fr !important;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .project-page .project-grid {
     justify-content: center;
     grid-template-columns: 1fr !important;
