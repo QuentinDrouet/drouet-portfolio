@@ -2,7 +2,8 @@
 @import "scss/abstract/variables",
         "scss/abstract/mixins",
         "scss/component/buttons",
-        "scss/layout/header";
+        "scss/layout/header",
+        "scss/layout/footer";
 
 * {
     margin: 0;
@@ -30,6 +31,7 @@ h2 {
 }
 
 .wrapper-about {
+    padding-top: 30px;
     .wrapper-flex {
         display: flex;
         width: 85%;
@@ -86,7 +88,7 @@ h2 {
         .wrapper-pres {
             width: 100% !important; 
             padding-top: 0px;
-            padding-bottom: 0px;
+            padding-bottom: 0px !important;
 
             .wrapper-heading {
                 h1{
@@ -121,6 +123,7 @@ h2 {
 
 .project-page {
     padding-top: 50px;
+    padding-bottom: 50px;
     .container {
         width: 100%;
         max-width: 1200px;
@@ -252,3 +255,4 @@ h2 {
         }
     }  
 }
+

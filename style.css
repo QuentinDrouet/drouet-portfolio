@@ -109,6 +109,37 @@ header .burger-toggle .nav-icon {
     display: block;
   }
 }
+/*  -----    FOOTER   -----  */
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer img {
+  width: 150px;
+}
+footer .footer-elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 35px;
+}
+footer .footer-elements a {
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #6b6b6b;
+  font-size: 14px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+footer .footer-elements a:hover {
+  opacity: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -137,6 +168,9 @@ h2 {
   font-weight: 700;
 }
 
+.wrapper-about {
+  padding-top: 30px;
+}
 .wrapper-about .wrapper-flex {
   display: flex;
   width: 85%;
@@ -188,7 +222,7 @@ h2 {
   .wrapper-flex .wrapper-pres {
     width: 100% !important;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px !important;
   }
   .wrapper-flex .wrapper-pres .wrapper-heading h1 {
     font-size: 68px;
@@ -216,6 +250,7 @@ h2 {
 }
 .project-page {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .project-page .container {
   width: 100%;

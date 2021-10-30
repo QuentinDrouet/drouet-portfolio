@@ -64,6 +64,7 @@ header{
 	height: auto;
     left: 0;
     box-shadow: #dbdad9 0px -1px 2px 0px inset;
+    
 
     li {
         list-style: none;
@@ -74,6 +75,7 @@ header{
             text-decoration: none;
             padding-left: 20px;
             color: black;
+            
 
             &:hover {
                 box-shadow: $primary-color 5px 0px 0px 0px inset;
