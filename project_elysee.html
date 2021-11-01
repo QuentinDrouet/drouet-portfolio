@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>The Elysée website</title>
+</head>
+<body>
+    
+    <header>
+        <a href="index.html"><img src="images/new_logo.png" alt="logo of my portfolio"></a>
+        <nav class="nav">
+            <li><a href="index.html">About</a></li>
+            <li><a href="skill.html">Skills</a></li>
+            <li><a href="project.html">Projects</a></li>
+        </nav>
+        
+        <div class="burger-toggle" onclick="$('.nav-burger').slideToggle(100);"> 
+            <i class="fas fa-bars nav-icon"></i>
+        </div>
+    </header>
+    
+    <nav class="nav-burger"> 
+        <li><a href="index.html">About</a></li>
+        <li><a href="skill.html">Skills</a></li>
+        <li><a href="project.html">Projects</a></li>
+    </nav>
+
+    <div class="project-detail">
+        <div class="project-detail-wrapper">
+            <div class="detail-left">
+                <h5><span>front-end</span></h5>
+                <h2>Elysee website</h2>
+            </div>
+            <div class="detail-right">
+                <div class="divided">
+                    <h3 class="detail-title">Client</h3>
+                    <p>School</p>
+                </div>
+                <div class="divided">
+                    <h3 class="detail-title">Time</h3>
+                    <p>Feb-Aug 2020</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="img-wrapper">
+        <div class="overlay-detail"></div>
+        <img src="images/project1-2.PNG" alt="elysée palace website">
+    </div>
+
+    <div class="project-content">
+        <h2>Project overview</h2>
+        <p>During my preparatory year for IIM, I had to create a website on the Elysée Palace, from A to Z. For that, I did HTML, CSS, JS and PHP. The front part of the site was rather easy to create, apart from the responsive, especially on the image above. However, the back was more complex. Indeed, I had to create a MySQL database, a login system and especially an admin. Admin can: create articles on the site's blog, change the role of readers etc ...</p>
+        <div class="wrapper-button">
+            <a href="">See next project</a>
+        </div>
+    </div>
+
+    <footer>
+        <img id="elysee-logo-footer" src="images/new_logo.png" alt="Logo of the Elysée Palace">
+        <div class="footer-elements">
+            <a href="index.html">About</a>
+            <a href="skill.html">Skills</a>
+            <a href="project.html">Projects</a>
+        </div>
+    </footer>
+</body>
+</html>
