@@ -506,6 +506,7 @@ h2 {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  margin-bottom: 10px;
 }
 .project-detail .project-detail-wrapper .detail-left h2 {
   font-size: 54px;
