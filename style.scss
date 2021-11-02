@@ -17,6 +17,8 @@ body {
     background-image: $primary-background;
 }
 
+//global
+
 p {
     color: #666;
 }
@@ -29,6 +31,8 @@ h2 {
     font-size: 50px;
     font-weight: 700;
 }
+
+//homepage
 
 .wrapper-about {
     padding-top: 30px;
@@ -120,6 +124,9 @@ h2 {
         text-align: center;
     }
 }
+
+
+//projects page
 
 .project-page {
     padding-top: 50px;
@@ -259,6 +266,8 @@ h2 {
 }
 
 
+//skills page
+
 .contain-experience {
     padding: 50px;
 
@@ -390,6 +399,8 @@ h2 {
         padding: 50px 20px;
     }
 }
+
+//project detailed page
 
 .project-detail {
     padding: 20px;
