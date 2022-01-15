@@ -44,6 +44,7 @@ header .nav li a {
   padding-top: 40px;
   padding-bottom: 20px;
   display: block;
+  transition: all 0.2s;
 }
 header .nav li a:hover {
   color: #ff8957;
@@ -157,6 +158,7 @@ footer .footer-elements a:hover {
 
 body {
   background-image: white;
+  animation: transIn 0.5s;
 }
 
 p {
@@ -176,6 +178,16 @@ h2 {
   font-weight: 700;
 }
 
+@keyframes transIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
 .wrapper-about {
   padding-top: 30px;
 }
